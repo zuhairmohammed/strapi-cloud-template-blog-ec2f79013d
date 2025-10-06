@@ -5,6 +5,26 @@
     "icon": "book"
   },
   "options": {},
-  "attributes": {},
+  "attributes": {
+    "postImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "postTitle": {
+      "type": "string"
+    },
+    "postSubTitle": {
+      "type": "string"
+    },
+    "postUrl": {
+      "type": "string"
+    }
+  },
   "config": {}
 }

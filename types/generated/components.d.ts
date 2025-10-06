@@ -6,7 +6,18 @@ export interface SharedHero extends Struct.ComponentSchema {
     displayName: 'Hero';
     icon: 'star';
   };
-  attributes: {};
+  attributes: {
+    minHeight: Schema.Attribute.String;
+    pbuttonlink: Schema.Attribute.String;
+    pbuttontxt: Schema.Attribute.String;
+    sbuttonlink: Schema.Attribute.String;
+    sbuttontxt: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    subtitle1: Schema.Attribute.String;
+    supTitle: Schema.Attribute.String;
+    title1: Schema.Attribute.String;
+    title2: Schema.Attribute.String;
+  };
 }
 
 export interface SharedMedia extends Struct.ComponentSchema {
@@ -26,7 +37,12 @@ export interface SharedMediaPost extends Struct.ComponentSchema {
     displayName: 'Media Post';
     icon: 'book';
   };
-  attributes: {};
+  attributes: {
+    postImage: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    postSubTitle: Schema.Attribute.String;
+    postTitle: Schema.Attribute.String;
+    postUrl: Schema.Attribute.String;
+  };
 }
 
 export interface SharedQuote extends Struct.ComponentSchema {

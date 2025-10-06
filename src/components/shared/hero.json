@@ -5,6 +5,37 @@
     "icon": "star"
   },
   "options": {},
-  "attributes": {},
+  "attributes": {
+    "supTitle": {
+      "type": "string"
+    },
+    "title1": {
+      "type": "string"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "subtitle1": {
+      "type": "string"
+    },
+    "pbuttontxt": {
+      "type": "string"
+    },
+    "pbuttonlink": {
+      "type": "string"
+    },
+    "sbuttontxt": {
+      "type": "string"
+    },
+    "sbuttonlink": {
+      "type": "string"
+    },
+    "minHeight": {
+      "type": "string"
+    }
+  },
   "config": {}
 }
