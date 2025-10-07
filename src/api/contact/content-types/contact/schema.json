@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "contactNumber": {
+      "type": "string",
+      "required": true
+    },
+    "inquiry": {
+      "type": "enumeration",
+      "enum": [
+        "General Inquiry",
+        "Hire Neville For Business Consultancy & Mentorship",
+        "Talk About Your Business For Angel Investment",
+        "Hire Neville To Help Get Introductions Worldwide",
+        "Hire Neville To Help Solve Legal & Other Issues",
+        "Looking For A Job Opportunity"
+      ]
+    },
+    "comment": {
+      "type": "text"
+    }
+  }
+}
