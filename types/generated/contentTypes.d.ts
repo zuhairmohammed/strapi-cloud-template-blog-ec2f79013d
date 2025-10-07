@@ -594,6 +594,7 @@ export interface ApiMediaMedia extends Struct.SingleTypeSchema {
       Schema.Attribute.Private;
     mainTitle: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    subTitle: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
